@@ -1,7 +1,23 @@
 {
   "name": "vision-core",
-  "version": "0.0.0",
-  "private": true,
+  "description": "This module contains the source code for Advanced Express Web Application Development.",
+  "homepage": "https://github.com/AndrewKeig/vision-core",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrew Keig",
+    "email": "andrew.keig@gmail.com"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewkeig/vision-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewKeig/vision-core/issues"
+  },
   "dependencies": {
     "nconf": "~0.6.7",
     "winston": "~0.7.1",
@@ -13,5 +29,9 @@
     "mongoose": "~3.6.19",
     "github": "~0.1.9",
     "hiredis": "~0.1.15"
-  }
+  },
+  "keywords": [
+    "express",
+    "boilerplate"
+  ]
 }
